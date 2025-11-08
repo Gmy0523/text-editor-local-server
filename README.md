@@ -30,7 +30,7 @@ mkcert localhost
     - Linux: 根据发行版不同，可能需要将 CA 证书添加到 /etc/ca-certificates/update.d/ 或使用图形工具
 7. 启动本地服务器：
 ```
-node src/server.js
+npm run start
 ```
 8. 访问 https://text-editor-client.vercel.app/ 即可使用文本编辑器。
 
