@@ -32,7 +32,7 @@ mkcert localhost
 ```
 node src/server.js
 ```
-8. 在浏览器中访问https://text-editor-client.vercel.app/即可使用文本编辑器。
+8. 访问 https://text-editor-client.vercel.app/ 即可使用文本编辑器。
 
 # 为什么选择HTTPS
 1. 避免 Mixed Content 错误：由于前端应用部署在 HTTPS 上，如果本地服务使用 HTTP，浏览器会阻止从 HTTPS 页面发起的 HTTP 请求。
